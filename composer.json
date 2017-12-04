@@ -1,5 +1,5 @@
 {
-  "name": "reprover/laravel-notification-channels",
+  "name": "reprover/wechat-channel",
   "description": "Laravel Notification Add Channels",
   "type": "library",
   "require": {
