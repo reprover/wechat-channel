@@ -15,8 +15,9 @@ class WechatServiceProvider extends ServiceProvider
 {
 
     public function register(){
-        $this->app->when(WechatChannel::class)
-            ->give('wechat');
+        $this->app->singleton('WechatChannel',function($app){
+            return new WechatChannel();
+        });
     }
 
 }
