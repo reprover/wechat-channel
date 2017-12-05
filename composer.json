@@ -1,6 +1,6 @@
 {
   "name": "reprover/wechat-channel",
-  "description": "Laravel Notification Addon Channels",
+  "description": "Laravel Notification Wechat Channel",
   "require": {
     "php": ">=7.0.0",
     "overtrue/laravel-wechat": "^3.1",
