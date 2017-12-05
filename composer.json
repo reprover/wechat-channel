@@ -3,8 +3,8 @@
   "description": "Laravel Notification Wechat Channel",
   "require": {
     "php": ">=7.0.0",
-    "overtrue/laravel-wechat": "^3.1",
-    "laravel/laravel": "^5.5.*"
+    "overtrue/laravel-wechat": "3.1.*",
+    "laravel/laravel": "5.5.*"
   },
   "license": "MIT",
   "authors": [
