@@ -1,10 +1,10 @@
-#Laravel 微信通知系统
+# Laravel 微信通知系统
 第一个自己写的扩展包，参考了其他包，搞出来的，不过代码都是自己写的，嗯。。
 
-##基本要求：
+## 基本要求：
 php>=7.0
 
-##用法：
+## 用法：
 >composer require reprover/wechat-channel
 
 然后
@@ -28,7 +28,7 @@ php>=7.0
 没有测试 以后再加 
 
 
-##感谢
+## 感谢
 >overtrue/laravel-wechat（这么完美的微信框架，做微信都离不开吧）
 >以及各种laravel-notification-channels的代码参考学习
 
