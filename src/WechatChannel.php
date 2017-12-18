@@ -29,7 +29,12 @@ class WechatChannel
     {
         $message = $notification->toWechat($notifiable);
         $openid = $notifiable->routeNotificationForWechat();
-        $this->wechat->notice->uses($message->templateId)->withUrl($message->url)->andReceiver($openid)->withData($message->data)->send();
+        $this->wechat->template_message->send([
+            'touser' => $openid,
+            'template_id' => $message->templateId,
+            'url' => $message->url,
+            'data' => $message->data,
+        ]);
     }
 
 }
