@@ -18,7 +18,7 @@ class WechatChannel
 
     public function __construct()
     {
-        $this->wechat = app("wechat");
+        $this->wechat = app("wechat.official_account");
     }
 
     /**
